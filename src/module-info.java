@@ -4,5 +4,5 @@
 /**
  * 
  */
-module afdfdf {
+module javaStudy {
 }
