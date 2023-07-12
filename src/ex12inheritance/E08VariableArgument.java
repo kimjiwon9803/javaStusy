@@ -27,7 +27,14 @@ public class E08VariableArgument {
 	  total+=(param1+param2+param3);
 	  return total;
   }
-  //statuc int get
+  /*...을 통해 매개변수 param이 2개이상의 인수를 받을수
+   * 있는것을 명시한다. 메서드 내에서는 배여로 반환되어
+   * 매개변수명.length와 같이 사용할 수 있다.*/
+  /*static int getTotal(int...param){
+   * int total=0;
+   * 
+   * */
+  
   
   
   public static void main(String[]args) {
