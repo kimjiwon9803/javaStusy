@@ -51,9 +51,15 @@ interface Myineterface1{
 }
 public class E03InterfaceMain {
    public static void main(String[] args) {
+	   //"구현"한 인터페이스를 퐁해 참조변수 선언은 가능하다.
 	   Myineterface1 my1=new MyClass();
+	   //오버라이딩한 메서드는 항상 자식 클래스에 정의한것이 호출된다.
 	   my1.absFunc1();
 	   my1.absFunc2();
+	   //자식쪽 멤버에 접근하려면 다운캐스팅 후 호출해야한다.
 	   ((SimpleClass)my1).mySimple();
+	   
+	   /*MyClass의 부모는 모두 3개이므로 아래는 모두 참조가
+	    * 가능하다.*/
    }
 }
