@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 
 public class E02SoBigNumberClass {
+	
 	public static void main(String[] args) {
 
 		System.out.println("Long형의 최대값:"+ Long.MAX_VALUE);
@@ -47,7 +48,6 @@ public class E02SoBigNumberClass {
 		BigDecimal bigDec1 = new BigDecimal("1.6");
 		BigDecimal bigDec2 = new BigDecimal("0.1");
 		
-	 
 		System.out.println("두 실수의 덧셈결과:"+ bigDec1.add(bigDec2));
 		System.out.println("두 실수의 뻴셈결과:"+ bigDec1.subtract(bigDec2));
 		System.out.println("두 실수의 곱셈결과:"+ bigDec1.multiply(bigDec2));
@@ -55,5 +55,4 @@ public class E02SoBigNumberClass {
 		System.out.println("두 실수의 나머지결과:"+ bigDec1.remainder(bigDec2));
 	}
 }
-
 
