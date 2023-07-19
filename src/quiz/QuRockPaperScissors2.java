@@ -58,7 +58,7 @@ public class QuRockPaperScissors2 {
 				else {
 					System.out.println("게임 재시작^^");
 					gameCount=0;
-				}			
+				}
 			}
 		}	
 	}

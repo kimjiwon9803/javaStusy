@@ -23,9 +23,7 @@ public class E01MethodBasic
 	{
 		int sum = a + b;
 		return sum; 
-		
 	}
-	
 	/*
 	메서드2 : 반환값X, 매개변수X 형태로 정의
 		=> 전달받는 값 없이 이름을 입력한 후 namePrint()
